@@ -1,0 +1,48 @@
+data;
+
+set LITERY := a aa b c cc d e ee f g h i j k l ll m n nn o oo p r s ss t u v w x y z zz zzz;
+param N := 3;
+
+param litery_w_slowach: a aa b c cc d e ee f g h i j k l ll m n nn o oo p r s ss t u v w x y z zz zzz :=
+1   0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+2   1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+3   1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 2 0 0 
+
+
+param: litery_dane :=
+a	3
+aa	0
+b	2
+c	1
+cc	0
+d	0
+e	3
+ee	0
+f	1
+g	0
+h	2
+i	0
+j	0
+k	0
+l	0
+ll	0
+m	0
+n	1
+nn	0
+o	1
+oo	1
+p	2
+r	3
+s	1
+ss	0
+t	4
+u	1
+v	0
+w	0
+x	0
+y	0
+z	0
+zz	0
+zzz	0
+
+
